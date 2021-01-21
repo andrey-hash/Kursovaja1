@@ -1,2 +1,2 @@
-# Kursovaja1
-Программа имитирующая работу телефона
+#  PBX and telephone imitation (simplified for study purposes)
+
