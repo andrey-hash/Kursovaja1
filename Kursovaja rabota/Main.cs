@@ -18,7 +18,7 @@ namespace Kurs_program
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_001());
+            Application.Run(new PBX_USER_FORM());
             
         }
        

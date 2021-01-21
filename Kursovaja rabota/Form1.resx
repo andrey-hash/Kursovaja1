@@ -118,22 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAxCAIAAAAXyW1IAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAhZJREFUWEfdmT9LQmEUxt8PEWWQNgYRFRlt9geHloa2moKiqaVBiIoaoikbpS8Q
-        CkJQQ0XR4gewBgeJCoIggpaGlkI0O3iP+N7n3uv946v31sNvOufxnh8VVCqqgUwzrdG97vhlf5uYzIZz
-        D1d8yRATrVi6Dx7RbviwFNSCF3SMmbMIG9TS0Fo7XoRq52EVWQsafqHJsBbsfKTwmmetka0Q7PyFtWDq
-        OwHVmkj1BlGLEJWfCoyCgEhkV2BkxcVLJllIwLBNiNnDMRiZQt9rObBVjhjfCcPIyO7tKutIgY5axNBG
-        F4yMsIg+0FGLvdZ2fplF9Mm9nUNTIfZabGEWaCrkP2pRoKyKP/vVIthCH+ioxaMWFJTjSOv585516oGC
-        chxpEawjBQpqcapFsI4UKCjEhVbx4451pEBHFS60CHbRBzpKcKdFsIs+0JFpvrXCtRahqUCgo8G7Wr7L
-        X7Btghctgk8ZYttJP6XkjhUetQi+Y5bmW4r8HFO8axF8xH3gOUZa0iLoJ4ZPuQk8xEirWhp8zXHg5UYc
-        /YvhhLnrQb5pF3ihKSK2PwCjVpi/GeHjFoG+FWI9swQjVch/d8DKFvH4XoRREAjqWyMB1Jo6CQf4bbfp
-        0wgs/IW1KLDwkehBqKG1cBSHtV9oPqxFgbUvsIqsRVH1i8gbLFGLTksLtDvA8GYP367HREtLNNmJzxBK
-        5RLfk1Ot/gIBuGyF8QvU8gAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="Button14.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="HeadSet_1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAE8AAAEFCAIAAAAt4i1vAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAQTVJREFUeF7NnVmTVNeVtvUHPEjMAsQg5qmgGMQ8SRRVxVBzURQzSMKyP7stWxL6
@@ -417,7 +402,7 @@
         e+dr56QfGsNgPBoMW07hagXMqGTWMtrvv/9/bhDUBOsXeJAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BPipe.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="HeadSet_2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAE8AAAEFCAIAAAAt4i1vAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAQTVJREFUeF7NnVmTVNeVtvUHPEjMAsQg5qmgGMQ8SRRVxVBzURQzSMKyP7stWxL6
@@ -701,7 +686,7 @@
         e+dr56QfGsNgPBoMW07hagXMqGTWMtrvv/9/bhDUBOsXeJAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BCALL.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SecondPhoneCallButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAxCAIAAAAXyW1IAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAhZJREFUWEfdmT9LQmEUxt8PEWWQNgYRFRlt9geHloa2moKiqaVBiIoaoikbpS8Q

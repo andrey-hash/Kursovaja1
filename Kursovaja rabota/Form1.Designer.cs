@@ -1,7 +1,7 @@
 ﻿namespace Kursovaja_rabota
 {
 
-    public partial class Form_001
+    public partial class PBX_USER_FORM
     {
         /// <summary>
         /// Required designer variable.
@@ -30,37 +30,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_001));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PBX_USER_FORM));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.FirstPhoneSharpButton = new System.Windows.Forms.Button();
+            this.DialerButton0 = new System.Windows.Forms.Button();
+            this.FirstPhoneAsteriskButton = new System.Windows.Forms.Button();
+            this.DialerButton9 = new System.Windows.Forms.Button();
+            this.DialerButton8 = new System.Windows.Forms.Button();
+            this.DialerButton7 = new System.Windows.Forms.Button();
+            this.DialerButton6 = new System.Windows.Forms.Button();
+            this.DialerButton5 = new System.Windows.Forms.Button();
+            this.DialerButton4 = new System.Windows.Forms.Button();
+            this.DialerButton3 = new System.Windows.Forms.Button();
+            this.DialerButton2 = new System.Windows.Forms.Button();
+            this.DialerButton1 = new System.Windows.Forms.Button();
+            this.CallButton = new System.Windows.Forms.Button();
             this.TextBox = new System.Windows.Forms.TextBox();
-            this.Button14 = new System.Windows.Forms.Button();
+            this.HeadSet_1 = new System.Windows.Forms.Button();
             this.HiddenBox1 = new System.Windows.Forms.GroupBox();
-            this.BPipe = new System.Windows.Forms.Button();
-            this.BCALL = new System.Windows.Forms.Button();
+            this.HeadSet_2 = new System.Windows.Forms.Button();
+            this.SecondPhoneCallButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.B0 = new System.Windows.Forms.Button();
-            this.B9 = new System.Windows.Forms.Button();
-            this.B8 = new System.Windows.Forms.Button();
-            this.B7 = new System.Windows.Forms.Button();
-            this.B6 = new System.Windows.Forms.Button();
-            this.B5 = new System.Windows.Forms.Button();
-            this.B4 = new System.Windows.Forms.Button();
-            this.B3 = new System.Windows.Forms.Button();
-            this.B2 = new System.Windows.Forms.Button();
-            this.B1 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton0 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton9 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton8 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton7 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton6 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton5 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton4 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton3 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton2 = new System.Windows.Forms.Button();
+            this.SecondPhoneDialerButton1 = new System.Windows.Forms.Button();
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.HiddenBox1.SuspendLayout();
@@ -69,155 +69,152 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button10);
-            this.panel1.Controls.Add(this.button11);
-            this.panel1.Controls.Add(this.button12);
-            this.panel1.Controls.Add(this.button9);
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.FirstPhoneSharpButton);
+            this.panel1.Controls.Add(this.DialerButton0);
+            this.panel1.Controls.Add(this.FirstPhoneAsteriskButton);
+            this.panel1.Controls.Add(this.DialerButton9);
+            this.panel1.Controls.Add(this.DialerButton8);
+            this.panel1.Controls.Add(this.DialerButton7);
+            this.panel1.Controls.Add(this.DialerButton6);
+            this.panel1.Controls.Add(this.DialerButton5);
+            this.panel1.Controls.Add(this.DialerButton4);
+            this.panel1.Controls.Add(this.DialerButton3);
+            this.panel1.Controls.Add(this.DialerButton2);
+            this.panel1.Controls.Add(this.DialerButton1);
             this.panel1.Location = new System.Drawing.Point(12, 74);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(196, 252);
             this.panel1.TabIndex = 1;
-            this.panel1.Visible = false;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button10
+            // FirstPhoneSharpButton
             // 
-            this.button10.Location = new System.Drawing.Point(138, 205);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(44, 44);
-            this.button10.TabIndex = 6;
-            this.button10.Text = "#";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.Button10_Click);
+            this.FirstPhoneSharpButton.Location = new System.Drawing.Point(138, 205);
+            this.FirstPhoneSharpButton.Name = "FirstPhoneSharpButton";
+            this.FirstPhoneSharpButton.Size = new System.Drawing.Size(44, 44);
+            this.FirstPhoneSharpButton.TabIndex = 6;
+            this.FirstPhoneSharpButton.Text = "#";
+            this.FirstPhoneSharpButton.UseVisualStyleBackColor = true;
+            this.FirstPhoneSharpButton.Click += new System.EventHandler(this.Button10_Click);
             // 
-            // button11
+            // DialerButton0
             // 
-            this.button11.Location = new System.Drawing.Point(74, 205);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(44, 44);
-            this.button11.TabIndex = 7;
-            this.button11.Text = "0";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.Button11_Click);
+            this.DialerButton0.Location = new System.Drawing.Point(74, 205);
+            this.DialerButton0.Name = "DialerButton0";
+            this.DialerButton0.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton0.TabIndex = 7;
+            this.DialerButton0.Text = "0";
+            this.DialerButton0.UseVisualStyleBackColor = true;
+            this.DialerButton0.Click += new System.EventHandler(this.Button11_Click);
             // 
-            // button12
+            // FirstPhoneAsteriskButton
             // 
-            this.button12.Location = new System.Drawing.Point(12, 205);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(44, 44);
-            this.button12.TabIndex = 8;
-            this.button12.Text = "*";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.Button12_Click);
+            this.FirstPhoneAsteriskButton.Location = new System.Drawing.Point(12, 205);
+            this.FirstPhoneAsteriskButton.Name = "FirstPhoneAsteriskButton";
+            this.FirstPhoneAsteriskButton.Size = new System.Drawing.Size(44, 44);
+            this.FirstPhoneAsteriskButton.TabIndex = 8;
+            this.FirstPhoneAsteriskButton.Text = "*";
+            this.FirstPhoneAsteriskButton.UseVisualStyleBackColor = true;
+            this.FirstPhoneAsteriskButton.Click += new System.EventHandler(this.Button12_Click);
             // 
-            // button9
+            // DialerButton9
             // 
-            this.button9.Location = new System.Drawing.Point(138, 140);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(44, 44);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "9";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.Button9_Click);
+            this.DialerButton9.Location = new System.Drawing.Point(138, 140);
+            this.DialerButton9.Name = "DialerButton9";
+            this.DialerButton9.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton9.TabIndex = 2;
+            this.DialerButton9.Text = "9";
+            this.DialerButton9.UseVisualStyleBackColor = true;
+            this.DialerButton9.Click += new System.EventHandler(this.Button9_Click);
             // 
-            // button8
+            // DialerButton8
             // 
-            this.button8.Location = new System.Drawing.Point(74, 140);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(44, 44);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.Button8_Click);
+            this.DialerButton8.Location = new System.Drawing.Point(74, 140);
+            this.DialerButton8.Name = "DialerButton8";
+            this.DialerButton8.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton8.TabIndex = 2;
+            this.DialerButton8.Text = "8";
+            this.DialerButton8.UseVisualStyleBackColor = true;
+            this.DialerButton8.Click += new System.EventHandler(this.Button8_Click);
             // 
-            // button7
+            // DialerButton7
             // 
-            this.button7.Location = new System.Drawing.Point(12, 140);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(44, 44);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.Button7_Click);
+            this.DialerButton7.Location = new System.Drawing.Point(12, 140);
+            this.DialerButton7.Name = "DialerButton7";
+            this.DialerButton7.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton7.TabIndex = 2;
+            this.DialerButton7.Text = "7";
+            this.DialerButton7.UseVisualStyleBackColor = true;
+            this.DialerButton7.Click += new System.EventHandler(this.Button7_Click);
             // 
-            // button6
+            // DialerButton6
             // 
-            this.button6.Location = new System.Drawing.Point(138, 77);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(44, 44);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.Button6_Click);
+            this.DialerButton6.Location = new System.Drawing.Point(138, 77);
+            this.DialerButton6.Name = "DialerButton6";
+            this.DialerButton6.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton6.TabIndex = 5;
+            this.DialerButton6.Text = "6";
+            this.DialerButton6.UseVisualStyleBackColor = true;
+            this.DialerButton6.Click += new System.EventHandler(this.Button6_Click);
             // 
-            // button5
+            // DialerButton5
             // 
-            this.button5.Location = new System.Drawing.Point(74, 77);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(44, 44);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            this.DialerButton5.Location = new System.Drawing.Point(74, 77);
+            this.DialerButton5.Name = "DialerButton5";
+            this.DialerButton5.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton5.TabIndex = 4;
+            this.DialerButton5.Text = "5";
+            this.DialerButton5.UseVisualStyleBackColor = true;
+            this.DialerButton5.Click += new System.EventHandler(this.Button5_Click);
             // 
-            // button4
+            // DialerButton4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 77);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(44, 44);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            this.DialerButton4.Location = new System.Drawing.Point(12, 77);
+            this.DialerButton4.Name = "DialerButton4";
+            this.DialerButton4.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton4.TabIndex = 3;
+            this.DialerButton4.Text = "4";
+            this.DialerButton4.UseVisualStyleBackColor = true;
+            this.DialerButton4.Click += new System.EventHandler(this.Button4_Click);
             // 
-            // button3
+            // DialerButton3
             // 
-            this.button3.Location = new System.Drawing.Point(138, 14);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(44, 44);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            this.DialerButton3.Location = new System.Drawing.Point(138, 14);
+            this.DialerButton3.Name = "DialerButton3";
+            this.DialerButton3.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton3.TabIndex = 2;
+            this.DialerButton3.Text = "3";
+            this.DialerButton3.UseVisualStyleBackColor = true;
+            this.DialerButton3.Click += new System.EventHandler(this.Button3_Click);
             // 
-            // button2
+            // DialerButton2
             // 
-            this.button2.Location = new System.Drawing.Point(74, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(44, 44);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.DialerButton2.Location = new System.Drawing.Point(74, 14);
+            this.DialerButton2.Name = "DialerButton2";
+            this.DialerButton2.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton2.TabIndex = 1;
+            this.DialerButton2.Text = "2";
+            this.DialerButton2.UseVisualStyleBackColor = true;
+            this.DialerButton2.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // button1
+            // DialerButton1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.DialerButton1.Location = new System.Drawing.Point(12, 14);
+            this.DialerButton1.Name = "DialerButton1";
+            this.DialerButton1.Size = new System.Drawing.Size(44, 44);
+            this.DialerButton1.TabIndex = 0;
+            this.DialerButton1.Text = "1";
+            this.DialerButton1.UseVisualStyleBackColor = true;
+            this.DialerButton1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // button15
+            // CallButton
             // 
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.Location = new System.Drawing.Point(214, 88);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(44, 44);
-            this.button15.TabIndex = 5;
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Visible = false;
-            this.button15.Click += new System.EventHandler(this.Button15_Click);
+            this.CallButton.Location = new System.Drawing.Point(214, 88);
+            this.CallButton.Name = "CallButton";
+            this.CallButton.Size = new System.Drawing.Size(44, 44);
+            this.CallButton.TabIndex = 5;
+            this.CallButton.UseVisualStyleBackColor = true;
+            this.CallButton.Click += new System.EventHandler(this.CallButtonOnClick);
             // 
             // TextBox
             // 
@@ -231,21 +228,21 @@
             this.TextBox.TabIndex = 6;
             this.TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Button14
+            // HeadSet_1
             // 
-            this.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Button14.Image = ((System.Drawing.Image)(resources.GetObject("Button14.Image")));
-            this.Button14.Location = new System.Drawing.Point(264, 74);
-            this.Button14.Name = "Button14";
-            this.Button14.Size = new System.Drawing.Size(74, 267);
-            this.Button14.TabIndex = 7;
-            this.Button14.UseVisualStyleBackColor = true;
-            this.Button14.Click += new System.EventHandler(this.Button14_Click);
+            this.HeadSet_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.HeadSet_1.Image = ((System.Drawing.Image)(resources.GetObject("HeadSet_1.Image")));
+            this.HeadSet_1.Location = new System.Drawing.Point(264, 74);
+            this.HeadSet_1.Name = "HeadSet_1";
+            this.HeadSet_1.Size = new System.Drawing.Size(74, 267);
+            this.HeadSet_1.TabIndex = 7;
+            this.HeadSet_1.UseVisualStyleBackColor = true;
+            this.HeadSet_1.Click += new System.EventHandler(this.HeadSet_1_Click);
             // 
             // HiddenBox1
             // 
-            this.HiddenBox1.Controls.Add(this.BPipe);
-            this.HiddenBox1.Controls.Add(this.BCALL);
+            this.HiddenBox1.Controls.Add(this.HeadSet_2);
+            this.HiddenBox1.Controls.Add(this.SecondPhoneCallButton);
             this.HiddenBox1.Controls.Add(this.panel2);
             this.HiddenBox1.Controls.Add(this.TextBox1);
             this.HiddenBox1.Location = new System.Drawing.Point(396, 27);
@@ -255,145 +252,143 @@
             this.HiddenBox1.TabStop = false;
             this.HiddenBox1.Text = "Телефон";
             // 
-            // BPipe
+            // HeadSet_2
             // 
-            this.BPipe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BPipe.Image = ((System.Drawing.Image)(resources.GetObject("BPipe.Image")));
-            this.BPipe.Location = new System.Drawing.Point(335, 70);
-            this.BPipe.Name = "BPipe";
-            this.BPipe.Size = new System.Drawing.Size(69, 226);
-            this.BPipe.TabIndex = 11;
-            this.BPipe.UseVisualStyleBackColor = true;
-            this.BPipe.Click += new System.EventHandler(this.BPipe_Click);
+            this.HeadSet_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.HeadSet_2.Image = ((System.Drawing.Image)(resources.GetObject("HeadSet_2.Image")));
+            this.HeadSet_2.Location = new System.Drawing.Point(335, 70);
+            this.HeadSet_2.Name = "HeadSet_2";
+            this.HeadSet_2.Size = new System.Drawing.Size(69, 226);
+            this.HeadSet_2.TabIndex = 11;
+            this.HeadSet_2.UseVisualStyleBackColor = true;
+            this.HeadSet_2.Click += new System.EventHandler(this.BPipe_Click);
             // 
-            // BCALL
+            // SecondPhoneCallButton
             // 
-            this.BCALL.Image = ((System.Drawing.Image)(resources.GetObject("BCALL.Image")));
-            this.BCALL.Location = new System.Drawing.Point(236, 70);
-            this.BCALL.Name = "BCALL";
-            this.BCALL.Size = new System.Drawing.Size(47, 44);
-            this.BCALL.TabIndex = 9;
-            this.BCALL.UseVisualStyleBackColor = true;
-            this.BCALL.Visible = false;
-            this.BCALL.Click += new System.EventHandler(this.BCALL_Click);
+            this.SecondPhoneCallButton.Image = ((System.Drawing.Image)(resources.GetObject("SecondPhoneCallButton.Image")));
+            this.SecondPhoneCallButton.Location = new System.Drawing.Point(236, 70);
+            this.SecondPhoneCallButton.Name = "SecondPhoneCallButton";
+            this.SecondPhoneCallButton.Size = new System.Drawing.Size(47, 44);
+            this.SecondPhoneCallButton.TabIndex = 9;
+            this.SecondPhoneCallButton.UseVisualStyleBackColor = true;
+            this.SecondPhoneCallButton.Click += new System.EventHandler(this.SecondCallButtonOnClick);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.B0);
-            this.panel2.Controls.Add(this.B9);
-            this.panel2.Controls.Add(this.B8);
-            this.panel2.Controls.Add(this.B7);
-            this.panel2.Controls.Add(this.B6);
-            this.panel2.Controls.Add(this.B5);
-            this.panel2.Controls.Add(this.B4);
-            this.panel2.Controls.Add(this.B3);
-            this.panel2.Controls.Add(this.B2);
-            this.panel2.Controls.Add(this.B1);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton0);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton9);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton8);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton7);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton6);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton5);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton4);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton3);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton2);
+            this.panel2.Controls.Add(this.SecondPhoneDialerButton1);
             this.panel2.Location = new System.Drawing.Point(21, 59);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(209, 252);
             this.panel2.TabIndex = 8;
-            this.panel2.Visible = false;
             // 
-            // B0
+            // SecondPhoneDialerButton0
             // 
-            this.B0.Location = new System.Drawing.Point(74, 205);
-            this.B0.Name = "B0";
-            this.B0.Size = new System.Drawing.Size(44, 44);
-            this.B0.TabIndex = 7;
-            this.B0.Text = "0";
-            this.B0.UseVisualStyleBackColor = true;
-            this.B0.Click += new System.EventHandler(this.B0_Click);
+            this.SecondPhoneDialerButton0.Location = new System.Drawing.Point(74, 205);
+            this.SecondPhoneDialerButton0.Name = "SecondPhoneDialerButton0";
+            this.SecondPhoneDialerButton0.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton0.TabIndex = 7;
+            this.SecondPhoneDialerButton0.Text = "0";
+            this.SecondPhoneDialerButton0.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton0.Click += new System.EventHandler(this.B0_Click);
             // 
-            // B9
+            // SecondPhoneDialerButton9
             // 
-            this.B9.Location = new System.Drawing.Point(138, 140);
-            this.B9.Name = "B9";
-            this.B9.Size = new System.Drawing.Size(44, 44);
-            this.B9.TabIndex = 2;
-            this.B9.Text = "9";
-            this.B9.UseVisualStyleBackColor = true;
-            this.B9.Click += new System.EventHandler(this.B9_Click);
+            this.SecondPhoneDialerButton9.Location = new System.Drawing.Point(138, 140);
+            this.SecondPhoneDialerButton9.Name = "SecondPhoneDialerButton9";
+            this.SecondPhoneDialerButton9.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton9.TabIndex = 2;
+            this.SecondPhoneDialerButton9.Text = "9";
+            this.SecondPhoneDialerButton9.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton9.Click += new System.EventHandler(this.B9_Click);
             // 
-            // B8
+            // SecondPhoneDialerButton8
             // 
-            this.B8.Location = new System.Drawing.Point(74, 140);
-            this.B8.Name = "B8";
-            this.B8.Size = new System.Drawing.Size(44, 44);
-            this.B8.TabIndex = 2;
-            this.B8.Text = "8";
-            this.B8.UseVisualStyleBackColor = true;
-            this.B8.Click += new System.EventHandler(this.B8_Click);
+            this.SecondPhoneDialerButton8.Location = new System.Drawing.Point(74, 140);
+            this.SecondPhoneDialerButton8.Name = "SecondPhoneDialerButton8";
+            this.SecondPhoneDialerButton8.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton8.TabIndex = 2;
+            this.SecondPhoneDialerButton8.Text = "8";
+            this.SecondPhoneDialerButton8.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton8.Click += new System.EventHandler(this.B8_Click);
             // 
-            // B7
+            // SecondPhoneDialerButton7
             // 
-            this.B7.Location = new System.Drawing.Point(12, 140);
-            this.B7.Name = "B7";
-            this.B7.Size = new System.Drawing.Size(44, 44);
-            this.B7.TabIndex = 2;
-            this.B7.Text = "7";
-            this.B7.UseVisualStyleBackColor = true;
-            this.B7.Click += new System.EventHandler(this.B7_Click);
+            this.SecondPhoneDialerButton7.Location = new System.Drawing.Point(12, 140);
+            this.SecondPhoneDialerButton7.Name = "SecondPhoneDialerButton7";
+            this.SecondPhoneDialerButton7.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton7.TabIndex = 2;
+            this.SecondPhoneDialerButton7.Text = "7";
+            this.SecondPhoneDialerButton7.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton7.Click += new System.EventHandler(this.B7_Click);
             // 
-            // B6
+            // SecondPhoneDialerButton6
             // 
-            this.B6.Location = new System.Drawing.Point(138, 77);
-            this.B6.Name = "B6";
-            this.B6.Size = new System.Drawing.Size(44, 44);
-            this.B6.TabIndex = 5;
-            this.B6.Text = "6";
-            this.B6.UseVisualStyleBackColor = true;
-            this.B6.Click += new System.EventHandler(this.B6_Click);
+            this.SecondPhoneDialerButton6.Location = new System.Drawing.Point(138, 77);
+            this.SecondPhoneDialerButton6.Name = "SecondPhoneDialerButton6";
+            this.SecondPhoneDialerButton6.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton6.TabIndex = 5;
+            this.SecondPhoneDialerButton6.Text = "6";
+            this.SecondPhoneDialerButton6.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton6.Click += new System.EventHandler(this.B6_Click);
             // 
-            // B5
+            // SecondPhoneDialerButton5
             // 
-            this.B5.Location = new System.Drawing.Point(74, 77);
-            this.B5.Name = "B5";
-            this.B5.Size = new System.Drawing.Size(44, 44);
-            this.B5.TabIndex = 4;
-            this.B5.Text = "5";
-            this.B5.UseVisualStyleBackColor = true;
-            this.B5.Click += new System.EventHandler(this.B5_Click);
+            this.SecondPhoneDialerButton5.Location = new System.Drawing.Point(74, 77);
+            this.SecondPhoneDialerButton5.Name = "SecondPhoneDialerButton5";
+            this.SecondPhoneDialerButton5.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton5.TabIndex = 4;
+            this.SecondPhoneDialerButton5.Text = "5";
+            this.SecondPhoneDialerButton5.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton5.Click += new System.EventHandler(this.B5_Click);
             // 
-            // B4
+            // SecondPhoneDialerButton4
             // 
-            this.B4.Location = new System.Drawing.Point(12, 77);
-            this.B4.Name = "B4";
-            this.B4.Size = new System.Drawing.Size(44, 44);
-            this.B4.TabIndex = 3;
-            this.B4.Text = "4";
-            this.B4.UseVisualStyleBackColor = true;
-            this.B4.Click += new System.EventHandler(this.B4_Click);
+            this.SecondPhoneDialerButton4.Location = new System.Drawing.Point(12, 77);
+            this.SecondPhoneDialerButton4.Name = "SecondPhoneDialerButton4";
+            this.SecondPhoneDialerButton4.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton4.TabIndex = 3;
+            this.SecondPhoneDialerButton4.Text = "4";
+            this.SecondPhoneDialerButton4.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton4.Click += new System.EventHandler(this.B4_Click);
             // 
-            // B3
+            // SecondPhoneDialerButton3
             // 
-            this.B3.Location = new System.Drawing.Point(138, 14);
-            this.B3.Name = "B3";
-            this.B3.Size = new System.Drawing.Size(44, 44);
-            this.B3.TabIndex = 2;
-            this.B3.Text = "3";
-            this.B3.UseVisualStyleBackColor = true;
-            this.B3.Click += new System.EventHandler(this.B3_Click);
+            this.SecondPhoneDialerButton3.Location = new System.Drawing.Point(138, 14);
+            this.SecondPhoneDialerButton3.Name = "SecondPhoneDialerButton3";
+            this.SecondPhoneDialerButton3.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton3.TabIndex = 2;
+            this.SecondPhoneDialerButton3.Text = "3";
+            this.SecondPhoneDialerButton3.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton3.Click += new System.EventHandler(this.B3_Click);
             // 
-            // B2
+            // SecondPhoneDialerButton2
             // 
-            this.B2.Location = new System.Drawing.Point(74, 14);
-            this.B2.Name = "B2";
-            this.B2.Size = new System.Drawing.Size(44, 44);
-            this.B2.TabIndex = 1;
-            this.B2.Text = "2";
-            this.B2.UseVisualStyleBackColor = true;
-            this.B2.Click += new System.EventHandler(this.B2_Click);
+            this.SecondPhoneDialerButton2.Location = new System.Drawing.Point(74, 14);
+            this.SecondPhoneDialerButton2.Name = "SecondPhoneDialerButton2";
+            this.SecondPhoneDialerButton2.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton2.TabIndex = 1;
+            this.SecondPhoneDialerButton2.Text = "2";
+            this.SecondPhoneDialerButton2.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton2.Click += new System.EventHandler(this.B2_Click);
             // 
-            // B1
+            // SecondPhoneDialerButton1
             // 
-            this.B1.Location = new System.Drawing.Point(12, 14);
-            this.B1.Name = "B1";
-            this.B1.Size = new System.Drawing.Size(44, 44);
-            this.B1.TabIndex = 0;
-            this.B1.Text = "1";
-            this.B1.UseVisualStyleBackColor = true;
-            this.B1.Click += new System.EventHandler(this.B1_Click);
+            this.SecondPhoneDialerButton1.Location = new System.Drawing.Point(12, 14);
+            this.SecondPhoneDialerButton1.Name = "SecondPhoneDialerButton1";
+            this.SecondPhoneDialerButton1.Size = new System.Drawing.Size(44, 44);
+            this.SecondPhoneDialerButton1.TabIndex = 0;
+            this.SecondPhoneDialerButton1.Text = "1";
+            this.SecondPhoneDialerButton1.UseVisualStyleBackColor = true;
+            this.SecondPhoneDialerButton1.Click += new System.EventHandler(this.SecondPhoneDialerButton1OnClick);
             // 
             // TextBox1
             // 
@@ -402,22 +397,21 @@
             this.TextBox1.Location = new System.Drawing.Point(21, 19);
             this.TextBox1.MaxLength = 100;
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.ReadOnly = true;
             this.TextBox1.Size = new System.Drawing.Size(383, 34);
             this.TextBox1.TabIndex = 10;
             this.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Form_001
+            // PBX_USER_FORM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(814, 361);
             this.Controls.Add(this.HiddenBox1);
-            this.Controls.Add(this.Button14);
+            this.Controls.Add(this.HeadSet_1);
             this.Controls.Add(this.TextBox);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.CallButton);
             this.Controls.Add(this.panel1);
-            this.Name = "Form_001";
+            this.Name = "PBX_USER_FORM";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Мини-АТС";
             this.panel1.ResumeLayout(false);
@@ -431,35 +425,35 @@
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button FirstPhoneSharpButton;
+        private System.Windows.Forms.Button DialerButton0;
+        private System.Windows.Forms.Button FirstPhoneAsteriskButton;
+        private System.Windows.Forms.Button DialerButton9;
+        private System.Windows.Forms.Button DialerButton8;
+        private System.Windows.Forms.Button DialerButton7;
+        private System.Windows.Forms.Button DialerButton6;
+        private System.Windows.Forms.Button DialerButton5;
+        private System.Windows.Forms.Button DialerButton4;
+        private System.Windows.Forms.Button DialerButton3;
+        private System.Windows.Forms.Button DialerButton2;
+        private System.Windows.Forms.Button DialerButton1;
+        private System.Windows.Forms.Button CallButton;
         private System.Windows.Forms.TextBox TextBox;
-        private System.Windows.Forms.Button Button14;
+        private System.Windows.Forms.Button HeadSet_1;
         private System.Windows.Forms.GroupBox HiddenBox1;
-        private System.Windows.Forms.Button BPipe;
-        private System.Windows.Forms.Button BCALL;
+        private System.Windows.Forms.Button HeadSet_2;
+        private System.Windows.Forms.Button SecondPhoneCallButton;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button B0;
-        private System.Windows.Forms.Button B9;
-        private System.Windows.Forms.Button B8;
-        private System.Windows.Forms.Button B7;
-        private System.Windows.Forms.Button B6;
-        private System.Windows.Forms.Button B5;
-        private System.Windows.Forms.Button B4;
-        private System.Windows.Forms.Button B3;
-        private System.Windows.Forms.Button B2;
-        private System.Windows.Forms.Button B1;
+        private System.Windows.Forms.Button SecondPhoneDialerButton0;
+        private System.Windows.Forms.Button SecondPhoneDialerButton9;
+        private System.Windows.Forms.Button SecondPhoneDialerButton8;
+        private System.Windows.Forms.Button SecondPhoneDialerButton7;
+        private System.Windows.Forms.Button SecondPhoneDialerButton6;
+        private System.Windows.Forms.Button SecondPhoneDialerButton5;
+        private System.Windows.Forms.Button SecondPhoneDialerButton4;
+        private System.Windows.Forms.Button SecondPhoneDialerButton3;
+        private System.Windows.Forms.Button SecondPhoneDialerButton2;
+        private System.Windows.Forms.Button SecondPhoneDialerButton1;
         private System.Windows.Forms.TextBox TextBox1;
     }
 }
